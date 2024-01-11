@@ -1,0 +1,23 @@
+{
+  "name": "for-jay-nft",
+  "version": "1.0.0",
+  "description": "This smart contract does this.\r 1. When contract is deployed to the blockchain, it first mints NFT for HRDAO.\r 2. Owner of the smart contract can change the account where donating money is deposited.\r 3. Only owner can transfer ownership to the other acount.\r 4. Has struct called 'NFTMeta' as metadata for minted nfts. When minting, issuance number and level of donation is added to the struct array nftMetas.\r 5. Unlimited minting is possible.\r 6. 'tokenURI' is stored, so that indicates Metadata uploaded on IPFS, pinata.\r 7. When minting, money sent on message is deposited into DAO account.\r 8. According to the amount of donation, level of donation is awarded to each NFT.\r    # Donation levels\r     0 - 0.0099999999999999999 ETH   ‘Change Maker’\r     0.01 - 0.0999999999999999999 ETH   ‘Champion’3\r     0.1 - 0.9999999999999999999 ETH    ‘Peacekeeper’\r     1 -  9.999999999999999999 ETH  ‘Visionary’\r     10 - 99.999999999999999999 ETH ‘Guardian’\r     100 + ETH   ‘Luminary’",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aoi Nakamoto",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.2",
+    "hardhat": "^2.7.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.0",
+    "dotenv": "^10.0.0"
+  }
+}

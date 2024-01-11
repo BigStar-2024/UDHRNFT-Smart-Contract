@@ -1,0 +1,19 @@
+{
+    "description": "The Universal Declaration of Human Rights (UDHR) is a document that acts like a global road map for freedom and equality – protecting the rights of every individual, everywhere.", 
+    "image": "https://gateway.pinata.cloud/ipfs/QmQTVLajzcysdEhqLEMtjfbQootQKwHVj3SBoUfDd7JCJ3", 
+    "name": "Genesis UDHR",
+    "attributes": [
+        {
+          "value": "Peacekeeper"
+        }, 
+        {
+          "trait_type": "Generation", 
+          "value": "Genesis Generation"
+        },
+        {
+          "display_type": "date", 
+          "trait_type": "Human Rights Day", 
+          "value": -664585200
+        }
+    ]
+}
